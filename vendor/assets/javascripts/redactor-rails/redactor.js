@@ -6732,7 +6732,6 @@
 
 					this.tidy.removeAttr();
 					this.tidy.removeEmpty();
-					this.tidy.removeParagraphsInLists();
 					this.tidy.removeDataAttr();
 					this.tidy.removeWithoutAttr();
 
