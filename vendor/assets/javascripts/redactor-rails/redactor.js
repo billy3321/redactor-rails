@@ -2075,8 +2075,6 @@
 					// remove dirty p
 					html = html.replace(/<p><p>/gi, '<p>');
 					html = html.replace(/<\/p><\/p>/gi, '</p>');
-					html = html.replace(/<li>(\s*|\t*|\n*)<p>/gi, '<li>');
-					html = html.replace(/<\/p>(\s*|\t*|\n*)<\/li>/gi, '</li>');
 
 					// remove space between paragraphs
 					html = html.replace(/<\/p>\s<p/gi, '<\/p><p');
