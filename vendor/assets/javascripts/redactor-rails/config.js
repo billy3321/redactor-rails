@@ -10,7 +10,8 @@ window.init_redactor = function(){
       "uploadImageFields": params,
       "imageGetJson":"/redactor_rails/pictures",
       "path":"/assets/redactor-rails",
-      "css":"style.css"}
+      "css":"style.css",
+      "buttonSource": true}
   );
 }
 
